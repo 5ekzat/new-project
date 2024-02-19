@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact{
+    width: 1140px;
+    margin: 0 auto;
+    height: 549px;
+}
+.container {
+    width: 1146px;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+.contact-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.background {
+    flex: 1;
+    background-color: #2F2F2F;
+    padding: 20px;
+    color: white;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.person {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+button,
+label {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.header-logo {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #2F2F2F ; 
+    color: #ffffff;
+    height: 368px;
+    display: flex;
+    align-items: center;
+}
+.footer-item{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column:last-child {
+    margin-right: 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    font-size: 16px;
+}
+
+.footer input[type="email"] {
+    width: 264px;
+    height: 39px;
+    color: #B0A9A9;
+    background-color: #2F2F2F ; 
+    border: 2px solid;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+}
+
+.footer button {
+    padding: 8px 16px;
+    background: #F59B00;
+    width: 120px;
+    height: 39px;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background-color: #ccc;
+}
